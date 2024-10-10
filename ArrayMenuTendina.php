@@ -8,13 +8,14 @@
 <body>
 
 
-<select name="film">
+<select name="filmpreferito">
 
 <?php
  $film=["Avatar","Titanic","Star Wars","Jurassic World","The Avengers"];
 
  for ($i=0; $i<count($film); $i++){
-   echo "<option name='filmpreferito' value='f' . $i+1 . '>$film[$i]</option>";
+    $indice = $i+1;
+   echo "<option value='f' . $indice . '>$film[$i]</option>";
  }
 
 ?>
