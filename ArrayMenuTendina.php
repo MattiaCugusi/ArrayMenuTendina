@@ -15,7 +15,7 @@
 
  for ($i=0; $i<count($film); $i++){
     $indice = $i+1;
-   echo "<option value='f' . $indice . '>$film[$i]</option>";
+   echo "<option value='film" . $indice . "'>$film[$i]</option>";
  }
 
 ?>
